@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fda830">
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="516dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Txt_tiitularCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titular do Cartão:"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/setatitularCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Txt_numCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número do cartão:"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/setanumCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/Txt_bandCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bandeira Cartão:"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/setabandCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Txt_cod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Código de segurança:"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:id="@+id/setaCod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Txt_parcela"
+            android:layout_width="84dp"
+            android:layout_height="45dp"
+            android:text="Parcelas:"
+            android:textSize="20dp"/>
+
+        <Spinner
+            android:id="@+id/Spinner_parcela"
+            android:layout_width="369dp"
+            android:layout_height="44dp"
+            android:entries="@array/parcelas"
+            android:prompt="@string/qtd_parcelas" />
+        <EditText
+            android:id="@+id/Txt_setaParcela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Btn_pagamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Pagamento" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

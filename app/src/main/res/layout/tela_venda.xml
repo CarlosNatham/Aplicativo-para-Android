@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBA830"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Txt_selectCliente"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Selecione o cliente que está fazendo a compra:"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Txt_selectFunc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione o funcionário que está atendendo:"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFunc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Txt_selectProd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Selecione os produtos que estão sendo comprados:"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/spinnerProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Txt_qtd"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Quantidade:"
+            android:textSize="17dp" />
+
+        <Spinner
+            android:id="@+id/Spinner_parcela"
+            android:layout_width="369dp"
+            android:layout_height="44dp"
+            android:entries="@array/quantidade"
+            android:prompt="@string/qtd_produtos" />
+
+        <Button
+            android:id="@+id/Btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Ao Carrinho" />
+
+        <TextView
+            android:id="@+id/Txt_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total:"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/seta_Total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Txt_formaPag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione a forma de pagamento:"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Btn_dinheiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinheiro" />
+
+        <Button
+            android:id="@+id/Btn_cartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartão" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

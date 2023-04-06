@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a6444911.trab_m3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tela_Inicial" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Cadastro_Funcionario" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Cadastro" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Produto" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Cliente" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Fornecedor" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Consulta" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exibe_Cliente" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exibe_Produto" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exibe_Fornecedor" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exibe_Funcionario" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exibe_Vendas" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Excluir" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exclui_Cliente" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exclui_Fornecedor" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exclui_Funcionario" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exclui_Produto" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Exclui_Venda" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Venda" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Pagamento_Dinheiro" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+
+        <activity android:name=".Tela_Pagamento_Cartao" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+    </application>
+
+</manifest>

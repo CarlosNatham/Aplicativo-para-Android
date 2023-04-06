@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fda830">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="251dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Btn_clientesExcluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clientes"
+            android:onClick="abrirActivityExibeCliente"/>
+
+        <Button
+            android:id="@+id/Btn_produtosExcluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produtos"
+            android:onClick="abrirActivityExibeProduto"/>
+
+        <Button
+            android:id="@+id/Btn_fornecedorExcluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fornecedores"
+            android:onClick="abrirActivityExibeFornecedor"/>
+
+        <Button
+            android:id="@+id/Btn_FuncionarioExcluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funcionarios"
+            android:onClick="abrirActivityExibeFuncionarios"/>
+
+        <Button
+            android:id="@+id/Btn_vendasExcluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vendas"
+            android:onClick="abrirActivityExibeVendas"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

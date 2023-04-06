@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a6444911.trab_m3.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tela_inicio" />
+
+    <Button
+        android:id="@+id/Btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:onClick="abrirActivityCadastro"
+        android:text="Cadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_consultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:onClick="abrirActivityConsulta"
+        android:text="Consultar"
+        app:layout_constraintStart_toStartOf="@+id/Btn_cadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/Btn_cadastrar" />
+
+    <Button
+        android:id="@+id/Btn_excluir"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Excluir"
+        android:onClick="abrirActivityExcluir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn_consultar" />
+
+    <Button
+        android:id="@+id/Btn_vender"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Vender"
+        android:onClick="abrirActivityVender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn_excluir" />
+
+</android.support.constraint.ConstraintLayout>
